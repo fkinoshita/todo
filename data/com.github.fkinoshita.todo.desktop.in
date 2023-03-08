@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=todo
+Exec=todo
+Icon=com.github.fkinoshita.todo
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

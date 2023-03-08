@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="TodoItem" parent="GtkBox">
+    <property name="orientation">horizontal</property>
+    <property name="margin-top">3</property>
+    <property name="margin-bottom">3</property>
+    <property name="spacing">18</property>
+
+    <child>
+      <object class="GtkCheckButton" id="check_button">
+        <signal name="toggled" handler="on_check_button_toggled" swapped="no"/>
+      </object>
+    </child>
+
+    <child>
+      <object class="GtkLabel" id="label">
+        <property name="wrap">true</property>
+      </object>
+    </child>
+
+  </template>
+</interface>

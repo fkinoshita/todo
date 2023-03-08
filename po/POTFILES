@@ -1,0 +1,6 @@
+data/com.github.fkinoshita.todo.desktop.in
+data/com.github.fkinoshita.todo.appdata.xml.in
+data/com.github.fkinoshita.todo.gschema.xml
+src/main.c
+src/todo-window.c
+src/todo-window.ui
